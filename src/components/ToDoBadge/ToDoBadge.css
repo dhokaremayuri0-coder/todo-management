@@ -1,0 +1,58 @@
+/* Common badge */
+.badge {
+    display: inline-block;
+    min-width: 75px;
+    padding: 5px 12px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 400;
+    white-space: nowrap;
+}
+
+/* Priority colors */
+.badge.low {
+    background-color: #ACD982;
+    color: #37452C;
+}
+
+.badge.medium {
+    background-color: #F4B477;
+    color: #57402C;
+}
+
+.badge.high {
+    background-color: #F5A09D;
+    color: #663A38;
+}
+
+.badge.urgent {
+    background-color: #F37069;
+    color: #FFFFFF;
+}
+
+/* Status colors */
+.badge.not-started {
+    background-color: #D1D5DE;
+    color: #454953;
+}
+
+.badge.on-track {
+    background-color: #ACD982;
+    color: #37452C;
+}
+
+.badge.at-risk {
+    background-color: #FFE477;
+    color: #5B4D16;
+}
+
+.badge.delayed {
+    background-color: #F5A09D;
+    color: #663A38;
+}
+
+.badge.on-hold {
+    background-color: #EFA0DC;
+    color: #653C5B;
+}

@@ -1,0 +1,99 @@
+/* Main page */
+.AddTask {
+    min-height: 100vh;
+    padding: 35px 40px;
+    background-color: #f4f4f5;
+    color: #373737;
+    font-family: Arial, sans-serif;
+}
+
+/* Heading */
+.AddTask h2 {
+    margin-bottom: 6px;
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.AddTask > p {
+    margin-bottom: 28px;
+    color: #85858d;
+    font-size: 15px;
+}
+
+/* Form card */
+.taskForm {
+    max-width: 750px;
+    padding: 30px;
+    border: 1px solid #ededf0;
+    border-radius: 18px;
+    background-color: white;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.03);
+}
+
+/* Form fields */
+.formGroup {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 22px;
+}
+
+.formGroup label {
+    color: #45454c;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.formGroup input,
+.formGroup select,
+.formGroup textarea {
+    width: 100%;
+    padding: 12px 14px;
+    border: 1px solid #e1e1e6;
+    border-radius: 10px;
+    background-color: white;
+    color: #373737;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    outline: none;
+}
+
+.formGroup input:focus,
+.formGroup select:focus,
+.formGroup textarea:focus {
+    border-color: #a99bdf;
+}
+
+.formGroup textarea {
+    min-height: 100px;
+    resize: vertical;
+}
+
+/* Progress slider */
+.formGroup input[type="range"] {
+    padding: 0;
+    accent-color: #8c7bc9;
+    cursor: pointer;
+}
+
+/* Form buttons */
+.taskForm button {
+    padding: 12px 22px;
+    margin-right: 10px;
+    border: 1px solid #e5e5e8;
+    border-radius: 25px;
+    background-color: white;
+    color: #45454c;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.taskForm button[type="submit"] {
+    border-color: #8c7bc9;
+    background-color: #8c7bc9;
+    color: white;
+}
+
+.taskForm button:hover {
+    opacity: 0.85;
+}

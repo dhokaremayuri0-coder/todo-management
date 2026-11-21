@@ -1,0 +1,146 @@
+/* Page */
+.TaskListPage {
+    min-height: 100vh;
+    padding: 32px 36px;
+    background: #ffffff;
+    color: #303039;
+    font-family: Arial, sans-serif;
+}
+
+/* Heading */
+.TaskListPage h2 {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin: 0 0 8px;
+    font-size: 27px;
+    font-weight: 600;
+}
+
+.taskCount {
+    padding: 4px 10px;
+    border-radius: 20px;
+    background: #f1f1f4;
+    color: #555560;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.TaskListPage > p {
+    margin: 0 0 30px;
+    color: #888891;
+    font-size: 14px;
+}
+
+/* Search area */
+.searchBox {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 32px;
+}
+
+.searchBox input {
+    width: 260px;
+    padding: 11px 15px;
+    border: 1px solid #e3e3e8;
+    border-radius: 8px;
+    outline: none;
+    font-size: 13px;
+}
+
+.searchBox input:focus {
+    border-color: #aaa5c8;
+}
+
+.searchBox button {
+    padding: 11px 17px;
+    border: 1px solid #e3e3e8;
+    border-radius: 8px;
+    background: #ffffff;
+    color: #41414b;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.searchBox button:last-child {
+    margin-left: auto;
+    background: #373741;
+    border-color: #373741;
+    color: #ffffff;
+}
+
+.searchBox button:hover {
+    opacity: 0.85;
+}
+
+/* List tab */
+.TaskListPage h3 {
+    display: inline-block;
+    margin: 0;
+    padding: 0 5px 14px;
+    border-bottom: 2px solid #454550;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+/* Table */
+.tableContainer {
+    width: 100%;
+    overflow-x: auto;
+    border: 1px solid #e8e8ed;
+    border-radius: 9px;
+}
+
+.tableContainer table {
+    width: 100%;
+    min-width: 760px;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+/* Table header */
+.tableContainer th {
+    padding: 17px 15px;
+    background: #fafafd;
+    border-bottom: 1px solid #e8e8ed;
+    color: #777782;
+    font-size: 12px;
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+/* Table body */
+.tableContainer td {
+    padding: 19px 15px;
+    border-bottom: 1px solid #eeeeF2;
+    color: #494953;
+    font-size: 13px;
+    white-space: nowrap;
+}
+
+.tableContainer tbody tr:last-child td {
+    border-bottom: none;
+}
+
+.tableContainer tbody tr:hover {
+    background: #fafafd;
+}
+
+/* Task name */
+.tableContainer td:first-child span {
+    color: #383843;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.tableContainer td:first-child span:hover {
+    color: #7770bd;
+}
+
+/* Empty result */
+.tableContainer td[colspan="6"] {
+    padding: 30px;
+    color: #888891;
+    text-align: center;
+}
